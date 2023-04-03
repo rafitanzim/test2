@@ -51,7 +51,7 @@ Today a true queen was born. Many many happy returns of the day. Enjoy every mom
 height="90%"></center>
 
 <div class="wrapper">
-    <a href="page3.html" class="grButton">
+    <a href="page3.html" class="grButton"onclick="vibrateSimple()">
       Click Here!
     </a>
   </div>
@@ -63,7 +63,11 @@ height="90%"></center>
 
 
 
-
+<script>
+function vibrateSimple() {
+  navigator.vibrate(80);
+}
+</script>
 
 
 </html>
