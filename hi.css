@@ -101,15 +101,12 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 40px;
-    border-radius: 8px;
+    
     
 
-background: rgba( 255, 255, 255, 0.3 );
-  backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
+border-radius: 20px;
+	background: rgba( 255, 255, 255, 0.3 );
+  
 
 
     background-size: 165%;
